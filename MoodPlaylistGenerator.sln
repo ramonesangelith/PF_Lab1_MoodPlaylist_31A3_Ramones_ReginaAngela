@@ -5,9 +5,9 @@ VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylistGenerator", "MoodPlaylistGenerator.csproj", "{8D5F83DE-A29F-737B-BE4F-8D77763EB2AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylist.SQLite.Repository", "..\MoodPlaylist.SQLite.Repository\MoodPlaylist.SQLite.Repository.csproj", "{6B379B8D-CF35-4273-9E31-75212A952C4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylist.SQLite.Repository", "..\MoodPlaylist.SQLite.Repository\MoodPlaylist.SQLite.Repository.csproj", "{27F6E419-8F3D-EB97-AEB3-00341DA422A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylist.SQLite.Services", "..\MoodPlaylist.SQLite.Services\MoodPlaylist.SQLite.Services.csproj", "{D08FF52F-0DB6-4285-A86E-D7E45C29E563}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylist.SQLite.Services", "..\MoodPlaylist.SQLite.Services\MoodPlaylist.SQLite.Services.csproj", "{53108872-9102-40E2-E64A-94EBA6517685}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{8D5F83DE-A29F-737B-BE4F-8D77763EB2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D5F83DE-A29F-737B-BE4F-8D77763EB2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D5F83DE-A29F-737B-BE4F-8D77763EB2AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F6E419-8F3D-EB97-AEB3-00341DA422A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F6E419-8F3D-EB97-AEB3-00341DA422A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F6E419-8F3D-EB97-AEB3-00341DA422A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F6E419-8F3D-EB97-AEB3-00341DA422A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53108872-9102-40E2-E64A-94EBA6517685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53108872-9102-40E2-E64A-94EBA6517685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53108872-9102-40E2-E64A-94EBA6517685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53108872-9102-40E2-E64A-94EBA6517685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

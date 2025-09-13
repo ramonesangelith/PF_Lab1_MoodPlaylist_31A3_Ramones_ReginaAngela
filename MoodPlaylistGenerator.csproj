@@ -4,6 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+    <BaseOutputPath>C:\Users\regina\source\repos\PF_Lab1_MoodPlaylist_31A3_Ramones_ReginaAngela\bin</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
