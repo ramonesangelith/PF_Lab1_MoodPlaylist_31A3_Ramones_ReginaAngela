@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MoodPlaylistGenerator.Data;
+using MoodPlaylist.SQLite.Repository.Data;
+using MoodPlaylist.SQLite.Services.Services;
 using MoodPlaylistGenerator.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
@@ -43,12 +44,11 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapStaticAssets();
+app.UseStaticFiles();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 
 app.Run();
