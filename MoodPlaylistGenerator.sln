@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylistGenerator", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylist.SQLite.Repository", "..\MoodPlaylist.SQLite.Repository\MoodPlaylist.SQLite.Repository.csproj", "{6B379B8D-CF35-4273-9E31-75212A952C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodPlaylist.SQLite.Services", "..\MoodPlaylist.SQLite.Services\MoodPlaylist.SQLite.Services.csproj", "{D08FF52F-0DB6-4285-A86E-D7E45C29E563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B379B8D-CF35-4273-9E31-75212A952C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08FF52F-0DB6-4285-A86E-D7E45C29E563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

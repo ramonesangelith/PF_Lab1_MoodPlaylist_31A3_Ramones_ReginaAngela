@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MoodPlaylistGenerator.Data;
-using MoodPlaylistGenerator.Models;
+using MoodPlaylist.SQLite.Repository.Data;
+using MoodPlaylist.SQLite.Repository.Models;
 
 namespace MoodPlaylistGenerator.Services
 {
@@ -59,7 +59,7 @@ namespace MoodPlaylistGenerator.Services
             }
 
             await _context.SaveChangesAsync();
-            
+
             return await GetPlaylistByIdAsync(playlist.Id, userId) ?? playlist;
         }
 

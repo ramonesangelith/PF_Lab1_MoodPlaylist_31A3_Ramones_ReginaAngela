@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using MoodPlaylistGenerator.Data;
-using MoodPlaylistGenerator.Models;
-using System.Web;
+using MoodPlaylist.SQLite.Repository.Data;
+using MoodPlaylist.SQLite.Repository.Models;
 
 namespace MoodPlaylistGenerator.Services
 {
@@ -126,12 +125,12 @@ namespace MoodPlaylistGenerator.Services
         {
             // Extract video ID from various YouTube URL formats
             var uri = new Uri(url);
-            
+
             if (uri.Host.Contains("youtu.be"))
             {
                 return uri.AbsolutePath.TrimStart('/');
             }
-            
+
             if (uri.Host.Contains("youtube.com"))
             {
                 var query = System.Web.HttpUtility.ParseQueryString(uri.Query);
